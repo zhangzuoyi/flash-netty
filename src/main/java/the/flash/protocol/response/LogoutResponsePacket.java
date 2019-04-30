@@ -18,4 +18,26 @@ public class LogoutResponsePacket extends Packet {
 
         return LOGOUT_RESPONSE;
     }
+
+
+	public boolean isSuccess() {
+		return success;
+	}
+
+
+	public void setSuccess(boolean success) {
+		this.success = success;
+	}
+
+
+	public String getReason() {
+		return reason;
+	}
+
+
+	public void setReason(String reason) {
+		this.reason = reason;
+	}
+    
+    
 }

@@ -17,4 +17,14 @@ public class CreateGroupRequestPacket extends Packet {
 
         return CREATE_GROUP_REQUEST;
     }
+
+	public List<String> getUserIdList() {
+		return userIdList;
+	}
+
+	public void setUserIdList(List<String> userIdList) {
+		this.userIdList = userIdList;
+	}
+    
+    
 }
